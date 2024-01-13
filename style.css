@@ -1,0 +1,466 @@
+
+
+
+body {
+  background-image: url('/site/img/grey.jpg'); /* Avoir une image de fond */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir tout le fond */
+  background-color:rgb(91, 89, 89);
+  color: white;
+  height: 100vh;
+  overflow-x:auto;
+  overflow-y:auto;
+  margin: 0;
+}
+
+
+/*Bouton de choix de langue */
+
+.menu-langue {
+  margin-top: 60px; /* Ajoutez une marge en haut du bouton */
+  margin-bottom: 20px; /* Ajoutez une marge en bas du bouton */
+  display: flex; /* Utiliser flexbox pour centrer le contenu */
+  justify-content: center; /* Centrer horizontalement */
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  width: 100%;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  display: flex;
+  z-index: 1000;
+}
+.name: /*menu-nav-burger:*/  {                       /* Permet de configurer la barre du haut.(couleur,position, taille, et les flexbox pour mettre le tout à la suite) */
+  color: white;
+  float: left;
+  width: 20%;
+}
+
+
+
+.inline-div {
+margin: 0px;
+width: ;
+right: 0px
+}
+table {
+  width:50%; /* largeur du tableau */
+  border-collapse: collapse; /* Fusionner les bordures des cellules */
+  margin: 0px; /* Ajouter une marge extérieure */
+  position: absolute; /* Positionner le tableau de manière statique */
+  top: 3px;/*Placer le tableau en haut */
+  right: 50px; /* Placer le tableau à droite */
+  font-size: 100%; /* Augmenter la taille de la police*/
+  color:white;    
+  line-height: 2px;
+}
+
+/* La couelur du texte accueil etc*/
+ a {
+      color: rgb(185, 182, 182); 
+      text-decoration: none ; /* Remove underline if desired */
+      transition: color 0.3s ease;
+  }
+  /* La couelur du texte accueil etc lorsque notre curseur est dessus*/
+  a:hover {
+      color:rgb(244, 237, 237); /* Red color on hover - change as needed */
+      font-size: 1.2em;
+  }
+
+
+
+
+
+
+
+_
+_________________________________________________
+
+html {                        
+
+scroll-behavior: smooth;
+padding: 0;
+margin: 0;
+}
+
+
+nav .center-align {
+text-align: center; 
+text-shadow: 1px 1px 2px #333; 
+font-size: 23px;
+margin-top: 0px,
+}
+.accueil ;
+.a-propos {
+    height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
+    display: flex;
+    flex-direction: column ; /* pour que les titres et les premiers mots ne soient pas collés */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow-x: auto;
+    margin: 0 auto;
+    margin-top: 0 ;
+    position: relative;
+ }
+ 
+
+
+.conteneur {
+  height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
+  display: flex;
+  flex-direction: column ; /* pour que les titres et les premiers mots ne soient pas collés */
+  align-items: center;
+  color: white;
+  overflow-x: auto;
+  margin: 0 auto;
+  margin-top: 0 ;
+  position: relative;
+}
+
+.card4,
+.card2,
+.card3,
+.card1{
+border: 3px solid black;
+right: 70%;
+background-color: rgb(212, 209, 209);
+opacity: 0.8;
+width: 70%;
+max-width: 400px;
+height: 180px;
+margin:50px;
+text-align: center;
+border-radius: 20px;
+transition: all 0.3s;
+padding: 5vw;
+margin-top: 5px;
+color: rgb(79, 10, 10);s  
+transform: translate(-50%; -50%);*
+position: absolute;
+z-index: 998;
+}
+
+.card3 { /* Le texte de ce card est plus long que les autres don con l'ajustre*/
+  height: 220px
+}
+
+.vertical-align-container {
+display: flex;
+flex-direction: column; /* Alignement vertical */
+align-items: center; /* Centrage horizontal si nécessaire */
+}
+
+.card-image p{
+padding: 10px;
+color: rgb(79, 10, 10);
+}
+
+
+
+/*__________________________________________________________________________*/
+/* COMPETNECES: */
+
+
+.card-image{
+color:#black;
+font-weight: bold;
+font-size: 25px;   
+position: relative;  
+z-index: 999;
+}
+
+.liste-alignee {
+list-style-position: inside;
+padding-left: 40px; /* Ajustez la valeur selon vos besoins */
+text-align: left;
+color: black;
+font-size: 20px;
+z-index: 999;
+}
+
+/* Ajustement à part pour le card 3 et 2 */
+.liste-alignee3 {
+list-style-position: inside;
+padding-left: 10px; /* Ajustez la valeur selon vos besoins */
+text-align: left;
+color: black;
+font-size: 20px;
+z-index: 999;
+position: relative;
+}
+
+/* Ajustement à part pour le card 4*/
+.liste-alignee4 {
+list-style-position: inside;
+padding-left: 10px; /* Ajustez la valeur selon vos besoins */
+text-align: left;
+color: black;
+font-size: 20px
+height: 10px;
+z-index: 999;
+position: relative;
+}
+
+/* PROJETS REALISES_________________________________________________________________________*/
+
+#projets-réalisés {
+  position: relative;
+  overflow: 110%;
+}
+
+.projets-réalisés {
+  height: 100vh;
+  align-items: center;
+}
+
+.titre-projet {  
+  text-shadow: 1px 1px 2px #333; 
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+
+.card-carre{
+  z-index: 999;
+  }
+
+
+.carre1,
+.carre2,
+.carre3,
+.carre4 {
+  position: absolute;
+  width: 13%;
+  max-width: 140  px;
+  top: 0;
+  height: 200px;
+  margin: 48px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(212, 209, 209);
+  opacity: 0.8;
+  padding: 5vw;
+  line-height: 15px;
+  color: rgb(79, 10, 10);
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+  top: 200px;
+}
+
+.carre1 {
+  left: 14%;
+}
+
+.carre2 {
+  left: 36%;
+}
+
+.carre3 {
+  left: 58%;
+}
+
+.video {
+  left: 3
+}
+.carre4 {
+  left: 80%;
+}
+
+.color {
+  color: black ;
+}
+  
+
+
+/* _________________________________________________________________________*/
+
+
+
+/* Expériences/* _________________________________________________________________________*/*/
+
+.Expériences {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titre-Expériences {  
+  text-align: center; 
+  text-shadow: 1px 1px 2px #333; 
+  font-size: 23px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2 {
+  color: black;
+}
+
+/* Définir le style des sous-sections de la section à propos de moi */
+.Expériences div {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Style de la section me contacter */
+
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Définir le style du formulaire de contact */
+.contact form {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+/* Style des champs du formulaire */
+.contact input, .contact textarea {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* Style du bouton du formulaire */
+.contact button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+}
+
+/* Changer la couleur du bouton du formulaire au survol de la souris */
+.contact button:hover {
+background-color: #ddd;
+color: black;
+}
+
+.contact{
+height: 100vh;
+}
+ /* CENTRE D'INTERET_________________________________________________________________________*/
+
+
+#interet {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow-x: auto;
+  margin-top: 5px !important;
+  position: relative;
+}
+
+
+.carre6,
+.carre7,
+.carre8,
+.carre9 {
+  position: absolute;
+  max-width: 50 px;
+  width: 400px;
+  height: 90px;
+  margin: 100px;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 4px;
+  border-radius: 20px;
+  background-color: rgb(212, 209, 209);
+  opacity: 0.8;
+  padding: 3vw;
+  line-height: 15px;
+  color: rgb(79, 10, 10);
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+
+.carre6 {
+  left: 20%;
+  top: 380px;
+}
+
+.carre7 {
+  left: 62%;
+  top: 380px;
+}
+
+.carre8 {
+  left: 20%;
+  top: 580px;
+}
+
+.carre9 {
+  left: 62%;
+  top: 580px;
+}
+
+
+#interet {
+  overflow-y: auto;
+}
+#interet h2 {
+  color: black;
+  font-size: 20px;
+}
+
+#interet p {
+  color: #666;
+}
+
+/* Styles spécifiques pour les différentes parties de la nouvelle section */
+#interet div {
+  margin-top: 20px;
+}
+
+
+/* LE FOOTER_______________________________________________________________________________________*/
+
+footer {
+background-color: #333;
+color: white;
+text-align: center ;
+padding: 1px;
+position: relative;
+bottom: 0;
+left: 0;
+max-width: 100%;
+margin: 0;
+}
+.conteneur-flex {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+}
+
+.psize {
+font-size: 14px;
+}
+
+
+/* REGLAGES POUR LES CLASSES CONCERNES EN AYANT BESOIN */
+
+
+
